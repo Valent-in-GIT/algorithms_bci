@@ -1,0 +1,28 @@
+BCI_Project/
+│
+├── data/                   # Datos crudos y procesados
+│   ├── raw/                # Datos originales (señales EEG, fNIRS, etc.)
+│   └── processed/          # Datos preprocesados y limpios
+│
+├── notebooks/              # Notebooks para experimentación y análisis
+│   └── exploratory/        # Notebooks para exploración y visualización
+│   └── modeling/           # Notebooks para entrenamiento de modelos
+│
+├── src/                    # Código fuente del proyecto
+│   ├── preprocessing/      # Scripts para preprocesar señales (filtros, normalización, etc.)
+│   ├── feature_extraction/ # Scripts para extracción de características (PCA, CCA, etc.)
+│   ├── models/             # Modelos de aprendizaje automático (SVM, CNN, etc.)
+│   ├── evaluation/         # Scripts para evaluación de modelos (métricas, validación cruzada)
+│   └── utils/              # Funciones auxiliares (lectura de datos, visualización)
+│
+├── models/                 # Modelos entrenados guardados
+│   └── checkpoints/        # Pesos de los modelos y archivos de configuración
+│
+├── scripts/                # Scripts para correr experimentos completos
+│   └── train_model.py      # Script principal para entrenar modelos
+│   └── evaluate_model.py   # Script para evaluar el rendimiento de los modelos
+│
+├── tests/                  # Pruebas unitarias y de integración
+│
+├── README.md               # Descripción general del proyecto
+└── .gitignore              # Archivos y carpetas que Git ignorará

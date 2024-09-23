@@ -1,0 +1,14 @@
+# Ignorar archivos grandes o confidenciales
+data/raw/
+data/processed/
+models/checkpoints/
+env/
+*.log
+*.csv
+*.h5
+
+# Archivos temporales del sistema
+*.tmp
+*.bak
+Thumbs.db
+
